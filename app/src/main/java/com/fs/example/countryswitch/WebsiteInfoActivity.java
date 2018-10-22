@@ -47,6 +47,7 @@ public class WebsiteInfoActivity extends Activity {
 
                 switch (websiteInfoBean.getDefaultSite().trim()) {
 
+
                     case "English":
                         Log.e("111", "English");
                         LANGUAGE_INFO = 0;
