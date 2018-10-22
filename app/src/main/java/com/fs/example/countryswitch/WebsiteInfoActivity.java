@@ -45,7 +45,6 @@ public class WebsiteInfoActivity extends Activity {
 
                 WebsiteInfoBean websiteInfoBean = countryCodeToLanguageAndCurrencyInfo.get(position);
 
-
                 switch (websiteInfoBean.getDefaultSite().trim()) {
 
                     case "English":
